@@ -1,0 +1,120 @@
+:root {
+
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+	transition: all .3s ease-in-out;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+	font: 700 16px/18px 'Josefin Slab', serif;
+}
+
+.clear::after, .clear::before {
+	content: " ";
+	display: table;
+}
+
+.clear::after {
+	clear: both;
+}
+
+/* Main Styles */
+
+.header {
+	width: 100%;
+	background: url('../images/architect.jpg') no-repeat top center;
+	background-size: cover;
+	height: 700px;
+}
+
+.area {
+	display: flex;
+	margin-right: auto;
+    margin-left: auto;
+    flex-flow: row;
+    align-items: stretch;
+}
+
+.navbar-component {
+	width: 100%;
+	background-color: #fff;
+  	box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.43);
+  	position: fixed;
+  	height: 60px;
+  	z-index: 1;
+}
+
+.navbar-component > .navbar {
+	justify-content: space-between;
+}
+
+.logo {
+	padding: 20px 20px;
+	font-size: 22px;
+	color: black;
+	text-decoration: none;
+}
+ 
+.list {
+	padding: 20px 20px;
+}
+
+.item-link {
+	margin-left: 30px;
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+}
+
+.button:hover {
+  color: rgb(24,24,24);
+  border: 1px solid rgb(198,198,198);
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+}
+
+#projects {
+}
+
+.title {
+	font-size: 24px;
+	color: black;
+	margin: 30px 0 30px 0;
+}
+
+.subtitle {
+	font-size: 18px;
+	color: grey;
+	margin: 20px 0 20px 0;
+}
+
+.about-button {
+	width: 100%;
+	padding: 10px;
+}
+
+p {
+	margin: 15px 0 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
